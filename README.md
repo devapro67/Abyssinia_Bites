@@ -20,19 +20,3 @@ Welcome to the official repository for **Abyssinia Bites**, a premium, responsiv
 * **State Management:** React Context / Hooks (Cart System)
 
 ---
-
-## Getting Started & Local Development
-
-Follow these steps to get a local copy of the restaurant application running seamlessly on your machine.
-
-### Prerequisites
-
-Ensure you have **Node.js** (v16.x or higher recommended) and **npm** installed on your computer.
-
-### Installation Instructions
-
-1. **Clone or Download the Repository:**
-   Download this project directly or clone it via the terminal:
-   ```bash
-   git clone <your-github-repo-url>
-   cd abyssinia-bites
