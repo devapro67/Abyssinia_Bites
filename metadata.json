@@ -1,0 +1,6 @@
+{
+  "name": "Abyssinia Bites",
+  "description": "A modern, premium, and visually stunning web application for Abyssinia Bites, an authentic Ethiopian restaurant celebrating communal dining, rich spice blends, and the traditional coffee ceremony.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
