@@ -1,4 +1,6 @@
 import { MenuItem } from './types';
+import injeraImage from './assets/images/injera_platter_1779481045904.png';
+import coffeeImage from './assets/images/coffee_ceremony_1779481068249.png';
 
 export const MENU_ITEMS: MenuItem[] = [
   // Meat Lovers
@@ -129,6 +131,6 @@ export const CULTURAL_STORIES = [
 ];
 
 export const GALLERY_IMAGES = {
-  injera: '/assets/images/injera_platter_1779481045904.png',
-  coffee: '/assets/images/coffee_ceremony_1779481068249.png',
+  injera: injeraImage,
+  coffee: coffeeImage,
 };

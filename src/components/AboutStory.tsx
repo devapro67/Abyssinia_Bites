@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Sparkles, Soup, HeartHandshake, Coffee, Award, Utensils, Share2, X, Link, Facebook, Send, Mail, Check } from 'lucide-react';
 import { CULTURAL_STORIES, GALLERY_IMAGES } from '../data';
+import chefPortrait from '../assets/images/head_chef_portrait_1779517242814.png';
 
 export default function AboutStory() {
   const [activeTab, setActiveTab] = useState<'gursha' | 'spices' | 'buna'>('gursha');
@@ -158,7 +159,7 @@ export default function AboutStory() {
             <div className="relative w-full max-w-[340px] aspect-[3/4] p-3 border-2 border-gold-accent/40 bg-white shadow-2xl overflow-hidden group">
               <div className="relative w-full h-full overflow-hidden rounded-none bg-teal-dark">
                 <img
-                  src="/assets/images/head_chef_portrait_1779517242814.png"
+                  src={chefPortrait}
                   alt="Executive Chef Adinew Mekonnen portrait"
                   className="w-full h-full object-cover transform duration-700 ease-out group-hover:scale-105"
                   referrerPolicy="no-referrer"
@@ -314,7 +315,7 @@ export default function AboutStory() {
                 <div className="flex gap-4 p-4 bg-stone-900 border border-gray-800">
                   <div className="w-16 h-16 shrink-0 bg-teal-dark overflow-hidden p-1 border border-gold-accent/20">
                     <img 
-                      src="/assets/images/head_chef_portrait_1779517242814.png" 
+                      src={chefPortrait} 
                       alt="Adinew Mekonnen Portrait" 
                       className="w-full h-full object-cover"
                     />
