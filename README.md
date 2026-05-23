@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Abyssinia Bites - Modern Ethiopian Restaurant & Takeout Web App
 
-# Run and deploy your AI Studio app
+Welcome to the official repository for **Abyssinia Bites**, a premium, responsive full-stack web application designed for a modern Ethiopian culinary experience. This platform features an interactive cultural showcase, an intuitive digitized menu specializing in authentic dishes (including dedicated vegan and gluten-free teff filters), a live shopping cart for online takeout ordering, and a seamless reservation system.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/85cc3c1e-d323-4f3c-9981-49606a554729
+## Features
 
-## Run Locally
+* **Interactive Menu & Ordering:** Dynamic filtering for traditional meat dishes, vegetarian/vegan combo platters (Yetsom Beyaynetu), and pure Teff options. Includes a fully functional side-cart manager.
+* **Streamlined Checkout:** Dynamic toggles between Curbside Pickup and Local Delivery, interactive input tracking, and simulated secure payment UI gateways.
+* **Table Reservations:** A built-in management form to easily capture party sizes, dates, and times for communal dining.
+* **Cultural Experience Showcase:** Beautifully integrated visual sections illustrating the traditional coffee ceremony and the communal art of Gursha.
 
-**Prerequisites:**  Node.js
+---
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* **Frontend:** React.js, Tailwind CSS
+* **Build Tool:** Vite
+* **State Management:** React Context / Hooks (Cart System)
+
+---
