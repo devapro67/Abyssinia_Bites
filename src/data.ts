@@ -129,6 +129,6 @@ export const CULTURAL_STORIES = [
 ];
 
 export const GALLERY_IMAGES = {
-  injera: '/src/assets/images/injera_platter_1779481045904.png',
-  coffee: '/src/assets/images/coffee_ceremony_1779481068249.png',
+  injera: '/assets/images/injera_platter_1779481045904.png',
+  coffee: '/assets/images/coffee_ceremony_1779481068249.png',
 };
